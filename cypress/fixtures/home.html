@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+  <div>
+    <button class="trigger-error">Trigger Error</button>
+  </div>
+  <script>
+    document.querySelector(".trigger-error").addEventListener('click', function () {
+        throw new Error('error')
+    })
+  </script>
+</body>
+</html>

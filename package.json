@@ -1,0 +1,23 @@
+{
+  "name": "cypress-issue-23197",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser electron --headed --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtofStryker/cypress-issue-23197.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtofStryker/cypress-issue-23197/issues"
+  },
+  "homepage": "https://github.com/AtofStryker/cypress-issue-23197#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
